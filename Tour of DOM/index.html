@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour of DOM</title>
+    <link rel="stylesheet" href="Styles/styles.css".css">
+</head>
+<body>
+    <h1>Welcome to DOM</h1>
+    <h1>Welcome to DOM</h1>
+    <h1>Welcome to DOM</h1>
+    <h1>Welcome to DOM</h1>
+    <p>new Work</p>
+   
+<script src="js/dom.js"></script>
+<script>
+    console.log("Hello World!");
+    const allHeading = document.getElementsByTagName('h1');
+    for(const h1 of allHeading){
+        console.log(h1);
+        console.log(h1.innerText);
+    }
+</script>
+</body>
+</html>
